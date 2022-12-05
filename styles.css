@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #333545;
+    height: 86px;
+}
+.nav2{
+    background-color: #222539;
+    height: 40px;
+}
+.nav-txt{
+    color: #cccccc;
+}
+.navbar-toggler-icon{
+    stroke: rgba(255, 255, 255, 0.5);
+}
+.nav-srch{
+    width: 300px;
+}
+.movie-img{
+    height: 378px;
+    width: 222px;
+    border-radius: 7px;
+}
+.movies{
+    width: 222px;
+    height: 378px;
+}
+.paddingz{
+    padding: 0;
+}
+.ad{
+    margin-top: 45px;
+    height: 120px;
+}
+.card-img{
+    height: 222px;
+    width: 222px;
+    border-radius: 10px;
+}
+.prem{
+    background-color: #2b3148;
+    /* height: 630px; */
+}
+.premi{
+    background-color: aquamarine;
+}
+.exPadding{
+    padding-left: 90px;
+}
+.card-bg{
+    background-color: #2b3148;
+    color: white;
+}
+.mgc{
+    margin-top: 150px;
+}
+.gd{
+    width: 105px;
+}
+.av{
+    width: 243px;
+}
+.hit{
+    width: 192px;
+}
+.jaya{
+    width: 239px;
+}
+.fst{
+    margin-left: 7rem;
+}
+.vk{
+    width: 292px;
+}
+.all{
+    font-size: 16px;
+    padding: 20px;
+    height: 70px;
+    background-color: rgb(239, 239, 239);
+    margin-top: 120px;
+    line-height: 0.5;
+    border-radius: 3px;
+}
+.mrmv{
+    margin-top: 1rem;
+}
+.tent{
+    background-color: #333333;
+    /* height: 83px; */
+    padding: 20px;
+    padding-left: 60px;
+}
+.cust{
+    background-color: #404043;
+    height: 110px;
+}
+.smbg{
+    /* background-color: aquamarine; */
+    height: 110px;
+}
+.img-icon{
+    height: 50px;
+    width: 50px;
+}
+.p-icon{
+    color: white;
+    font-size: 11px;
+}
+.pre-f{
+    height: 100vh;
+    background-color: #333333;
+}
+.m-heading{
+    color: #b6b6b6;
+    font-size: 16px;
+}
+.m-links{
+    text-decoration: none;
+    color: #b6b6b6;
+    font-size: 14px;
+}
+.hv a:hover{
+    color: white;
+}
+
+.ft{
+    position: relative;
+    background-color: #333333;
+    height: 250px;
+    border-top: 2px solid #9f9f9f;
+}
+.my-show{
+    margin: auto;
+    position: absolute;
+    bottom: 235px;
+    
+    height: 36px;
+    width: 155px;
+    background-color: #333333;
+}
+.socials{
+    height: 40px;
+    width: 40px;
+}
+.copy{
+    text-align: center;
+    color: #9f9f9f;
+    font-size: 12px;
+}
+@media screen and (max-width:768px) {
+    .boxes{
+        flex-direction: column;
+    }
+    .all{
+        margin: 1rem;
+        width: 90%;
+    }
+    .all:nth-child(1){
+        margin-top: 120px;
+    }
+    .mrmv{
+        width: 90%;
+    }
+    
+
+}
+
+.indexz{
+    z-index: 4;
+}
